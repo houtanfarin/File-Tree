@@ -47,8 +47,7 @@ const File = (props) => {
   const fileIcons = {
     mp4: 'headphones',
     jpeg: 'file image',
-    png: 'file image outline'
-
+    png: 'file image outline' 
   }
   return <div>
     <i className={`${fileIcons[fileExtension]} icon`}></i>
