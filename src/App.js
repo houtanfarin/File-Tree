@@ -49,6 +49,7 @@ const File = (props) => {
     jpeg: 'file image',
     png: 'file image outline' 
   }
+  
   return <div>
     <i className={`${fileIcons[fileExtension]} icon`}></i>
     {name}
